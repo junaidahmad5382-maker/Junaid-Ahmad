@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Junaid Ahmad portfolio — aspiring software developer, technology enthusiast, and computer science student specializing in mathematics, programming, and digital innovation."
+    />
+    <meta
+      name="keywords"
+      content="Junaid Ahmad, portfolio, software developer, computer science, mathematics, web development, projects, India"
+    />
+    <meta name="theme-color" content="#070b17" />
+    <title>Junaid Ahmad | Aspiring Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+
+    <div class="page-shell">
+      <header class="topbar">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="#home" class="brand" aria-label="Junaid Ahmad home">
+            <span class="brand-mark">J</span>
+            <span>Junaid Ahmad</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero container section">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">Learning Today, Building Tomorrow.</span>
+            <h1>
+              <span class="name-line">JUNAID AHMAD</span>
+            </h1>
+
+            <div class="typewriter-wrap" aria-live="polite">
+              <span class="static-text">I am an</span>
+              <span class="typed-text" data-words='["Aspiring Developer","Programming Enthusiast","Technology Explorer"]'></span>
+            </div>
+
+            <p class="hero-text">
+              Building Digital Experiences Through Code &amp; Creativity.
+            </p>
+            <p class="about-snippet">
+              Hi, I'm Junaid Ahmad. I'm a Computer Science student with a passion for programming,
+              technology, mathematics, and software development. I enjoy exploring new technologies,
+              solving complex problems, and transforming creative ideas into digital experiences.
+            </p>
+
+            <div class="cta-row">
+              <a href="#projects" class="btn btn-primary">Explore My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              <a href="#" class="btn btn-ghost" aria-label="Download CV">Download CV</a>
+            </div>
+
+            <div class="socials" aria-label="Social profiles">
+              <a href="#" aria-label="GitHub">GitHub</a>
+              <a href="https://www.linkedin.com/in/junaid-ahmad-siddiqui-6887823aa" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" data-tilt>
+            <div class="portrait-stage">
+              <div class="portrait-shell">
+                <img
+                  class="profile-photo"
+                  src="images/profile.png"
+                  alt="Junaid Ahmad – Aspiring Software Developer"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="portrait-fallback" aria-label="Junaid Ahmad portrait placeholder">
+                  <span>JA</span>
+                </div>
+              </div>
+              <div class="mini-badge mini-badge-top">Python</div>
+              <div class="mini-badge mini-badge-left">AI</div>
+              <div class="mini-badge mini-badge-right">ML</div>
+            </div>
+
+            <div class="profile-panel">
+              <div class="profile-avatar">
+                <span>JA</span>
+              </div>
+              <div class="profile-meta">
+                <strong>Junaid Ahmad</strong>
+                <span>Software Developer</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">About Me</span>
+            <h2>Technology-driven thinker with a mathematical mindset.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p>
+                I am a BSc Mathematics with Computer Science student at Integral University, Lucknow,
+                India. My interest lies in software development, problem-solving, and creating digital
+                experiences that blend logic and creativity.
+              </p>
+              <p>
+                I enjoy exploring web development, artificial intelligence, machine learning, and data
+                science. I believe in continuous learning, practical experimentation, and building
+                solutions that solve real-world challenges through code.
+              </p>
+            </div>
+
+            <div class="journey-panel reveal" data-tilt>
+              <div class="about-portrait-wrap">
+                <img
+                  class="about-portrait"
+                  src="images/profile.png"
+                  alt="Junaid Ahmad – Aspiring Software Developer"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="about-portrait-fallback" aria-label="Junaid Ahmad profile fallback">
+                  <span>JA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Technical Skills</span>
+            <h2>Crafting solutions with logic, creativity, and curiosity.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group reveal" data-tilt>
+              <h3>Programming</h3>
+              <div class="chip-list">
+                <span>Python</span>
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>SQL</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal" data-tilt>
+              <h3>Web Development</h3>
+              <div class="chip-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal" data-tilt>
+              <h3>Computer Science</h3>
+              <div class="chip-list">
+                <span>DBMS</span>
+                <span>Operating Systems</span>
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>OOP</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal" data-tilt>
+              <h3>Interests</h3>
+              <div class="chip-list">
+                <span>Artificial Intelligence</span>
+                <span>Machine Learning</span>
+                <span>Data Science</span>
+                <span>Mathematics</span>
+                <span>Problem Solving</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Projects</span>
+            <h2>Selected work focused on design, development, and experimentation.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" data-tilt>
+              <div class="project-badge">UI / Frontend</div>
+              <h3>Netflix Clone</h3>
+              <p>A movie-streaming website interface inspired by modern streaming experiences.</p>
+              <div class="meta-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-tilt>
+              <div class="project-badge">Portfolio</div>
+              <h3>Personal Portfolio Website</h3>
+              <p>A personal website designed to showcase skills, projects, and creative vision.</p>
+              <div class="meta-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-tilt>
+              <div class="project-badge">Python</div>
+              <h3>Python Calculator</h3>
+              <p>A calculator application built using Python with a clean and functional interface.</p>
+              <div class="meta-row"><span>Python</span></div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-tilt>
+              <div class="project-badge">Management</div>
+              <h3>Student Management System</h3>
+              <p>A student information management project focused on organizing and retrieving data.</p>
+              <div class="meta-row"><span>Database</span><span>Java</span><span>SQL</span></div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="education" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Education</span>
+            <h2>Academic foundation rooted in mathematics, logic, and computing.</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-year">[Graduation Year]</span>
+                <h3>Bachelor of Science</h3>
+                <p>Mathematics with Computer Science</p>
+                <p>Integral University, Lucknow</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="interest-section reveal">
+            <h3>Academic Interests</h3>
+            <div class="chip-list">
+              <span>Linear Algebra</span>
+              <span>Calculus</span>
+              <span>Differential Equations</span>
+              <span>Group Theory</span>
+              <span>Database Management Systems</span>
+              <span>Operating Systems</span>
+              <span>Programming Fundamentals</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="interests" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">My Interests</span>
+            <h2>Driven by innovation, creativity, and continuous exploration.</h2>
+          </div>
+
+          <div class="interest-grid reveal">
+            <div class="interest-item"><span>Software Development</span></div>
+            <div class="interest-item"><span>Web Development</span></div>
+            <div class="interest-item"><span>Python Programming</span></div>
+            <div class="interest-item"><span>Artificial Intelligence</span></div>
+            <div class="interest-item"><span>Machine Learning</span></div>
+            <div class="interest-item"><span>Data Science</span></div>
+            <div class="interest-item"><span>Mathematics</span></div>
+            <div class="interest-item"><span>Technology and Innovation</span></div>
+          </div>
+        </section>
+
+        <section id="contact" class="section container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Contact</span>
+            <h2>Let’s connect and build something meaningful.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card reveal" data-tilt>
+              <h3>Reach Out</h3>
+              <ul>
+                <li><strong>Email:</strong> <a href="mailto:junaid.ahmad@email.com">junaid.ahmad@email.com</a></li>
+                <li><strong>GitHub:</strong> <a href="#">github.com/junaidahmad</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/junaid-ahmad-siddiqui-6887823aa" target="_blank" rel="noopener noreferrer">linkedin.com/in/junaid-ahmad-siddiqui-6887823aa</a></li>
+                <li><strong>Other:</strong> <a href="#">portfolio.example</a></li>
+              </ul>
+            </div>
+
+            <form class="contact-form reveal" data-tilt>
+              <label>
+                <span>Full Name</span>
+                <input type="text" name="fullName" placeholder="Your full name" />
+              </label>
+              <label>
+                <span>Email Address</span>
+                <input type="email" name="email" placeholder="your@email.com" />
+              </label>
+              <label>
+                <span>Subject</span>
+                <input type="text" name="subject" placeholder="Project inquiry" />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="5" placeholder="Tell me about your idea..."></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
